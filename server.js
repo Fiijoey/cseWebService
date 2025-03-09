@@ -16,7 +16,7 @@ const professionalData = {
     firstName: "Joseph",
     url: "https://www.linkedin.com/in/joseph-fiifi-mensah-877705156/",
   },
-  primaryDescription: "A professional and a passionate full stack developer",
+  primaryDescription: " A professional and a passionate full stack developer",
   workDescription1: "Who loves to develop beautiful things for the web",
   workDescription2: "Works with Html, css, java script, node and etc.",
   linkTitleText: "Find me here:",
