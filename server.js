@@ -53,8 +53,8 @@ const Professional = mongoose.model(
 // REST endpoint to serve the professional data from MongoDB
 app.get("/professional", async (req, res) => {
   try {
-    const data = await Professional.findOne(); // Fetch the first document
-    console.log("Query Result:", data);
+    const data = await Professional.find(); // Fetch the first document
+  console.log("Query Result:", data);  
     if (!data) {
       return res.status(404).json({ error: "No professional data found" });
     }
